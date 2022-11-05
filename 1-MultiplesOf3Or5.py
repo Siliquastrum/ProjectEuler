@@ -6,7 +6,7 @@ If we list all the natural numbers below 10 that are multiples of 3 or 5, we get
 Find the sum of all the multiples of 3 or 5 below 1000.
 """
 
-# Solution 1:
+# # 3 # Solution 1:
 f = lambda a: a * (a + 1) // 2
 
 def solution(n):
@@ -19,7 +19,7 @@ print(solution(int(input()))) # 1000 or another number entry
 
 
 
-""" Pseudo Solution
+""" # 2 # Pseudo Solution
 for a0 in range(int(input().strip())):
     x = 0
     for num in range(1, int(input().strip())):
@@ -31,7 +31,7 @@ for a0 in range(int(input().strip())):
 
 
 
-""" Pseudo Solution
+""" # 1 # Pseudo Solution
 for a0 in range(int(input().strip())):
     print(sum([num for num in range(1, int(input().strip())) if num%3 == 0 or num%5 == 0]))
 """ 
