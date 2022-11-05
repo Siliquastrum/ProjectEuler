@@ -15,4 +15,4 @@ def fibevensum(mx):
         if y%2 == 0: evensum += y
         x, y = y, x+y
     return evensum
-print(fibevensum(int(input())))
+print(fibevensum(int(input()))) # four million or another number entry

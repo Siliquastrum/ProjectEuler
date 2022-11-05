@@ -12,10 +12,7 @@ f = lambda a: a * (a + 1) // 2
 def solution(n):
     n -= 1
     return 3 * f(n//3) + 5 * f(n//5) - 15 * f(n//15)
-
-while inp != 0:
-    inp = int(input())
-    print(solution(inp))
+print(solution(int(input()))) # 1000 or another number entry
 
 
 
