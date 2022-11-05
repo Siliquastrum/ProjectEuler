@@ -13,6 +13,7 @@ def solution(n):
     n -= 1
     return 3 * f(n//3) + 5 * f(n//5) - 15 * f(n//15)
 print(solution(int(input()))) # 1000 or another number entry
+# returns 233168 if the number 1000 is entered
 
 
 

@@ -16,3 +16,4 @@ def fibevensum(mx):
         x, y = y, x+y
     return evensum
 print(fibevensum(int(input()))) # four million or another number entry
+# returns 4613732 if the number four million is entered
