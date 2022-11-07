@@ -1,10 +1,9 @@
-__author__ = "Enes Bekdemir"
 __date__ = "05 Nov 2022"
+__answer__ = 906609
 
-""" Problem
+__problem__ = """
 A palindromic number reads the same both ways. The largest palindrome made from the product of two 2-digit numbers is 9009 = 91 × 99.
 Find the largest palindrome made from the product of two 3-digit numbers.
-Answer: 906609
 """
 
 

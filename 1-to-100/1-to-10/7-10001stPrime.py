@@ -1,10 +1,9 @@
-__author__ = "Enes Bekdemir"
 __date__ = "07 Nov 2022"
+__answer__ = 104743
 
-"""
+__problem__ = """
 By listing the first six prime numbers: 2, 3, 5, 7, 11, and 13, we can see that the 6th prime is 13.
 What is the 10001st prime number?
-Answer: 104743
 """
 
 # # 2 # My Solution in HackerRank:
@@ -36,14 +35,11 @@ for a0 in range(t):
 
 
 """ # 1 # Pseudo Solution:
-#*#*# from 3-LargestPrimeFactor.py, the author is "Enes Bekdemir" so I :).
 import math
-
-def isPrime(n): # Finds whether n is prime or not.
+def isPrime(n):
     for i in range(2, int(math.sqrt(n))+1):
         if n % i == 0: return False
     return True
-#*#*#
 primest = 0
 n = int(input())
 prime = 2

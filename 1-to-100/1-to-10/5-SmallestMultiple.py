@@ -1,23 +1,20 @@
-__author__ = "Enes Bekdemir"
 __date__ = "06 Nov 2022"
+__answer__ = 232792560
 
-""" Problem
+__problem__ = """
 2520 is the smallest number that can be divided by each of the numbers from 1 to 10 without any remainder.
 What is the smallest positive number that is evenly divisible by all of the numbers from 1 to 20?
-Answer: 232792560
 """
 
 # # 1 # Solution 1:
 from collections import Counter
-
-#*#*# from 3-LargestPrimeFactor.py, the author is "Enes Bekdemir" so I :).
 import math
 
-def isPrime(n): # Finds whether n is prime or not.
+def isPrime(n):
     for i in range(2, int(math.sqrt(n))+1):
         if n % i == 0: return False
     return True
-#*#*#
+
 
 def primeDiv(num): # prime factorizes the number "num"
     pr = []

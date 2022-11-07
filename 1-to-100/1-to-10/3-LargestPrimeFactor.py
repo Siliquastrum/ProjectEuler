@@ -1,10 +1,9 @@
-__author__ = "Enes Bekdemir"
 __date__ = "05 Nov 2022"
+__answer__ = 6857
 
-""" Problem
+__problem__ = """
 The prime factors of 13195 are 5, 7, 13 and 29.
 What is the largest prime factor of the number 600851475143 ?
-Answer: 6857
 """
 
 # # 2 # Solution 1:

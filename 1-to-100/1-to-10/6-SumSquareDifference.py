@@ -1,7 +1,7 @@
-__author__ = "Enes Bekdemir"
 __date__ = "06 Nov 2022"
+__answer__ = 25164150
 
-""" Problem
+__problem__ = """
 The sum of the squares of the first ten natural numbers is,
     1²+2²+...+10²=385
 The square of the sum of the first ten natural numbers is,
@@ -9,7 +9,6 @@ The square of the sum of the first ten natural numbers is,
 Hence the difference between the sum of the squares of the first ten natural numbers and the square of the sum is,
     3025 - 385 = 2640
 Find the difference between the sum of the squares of the first one hundred natural numbers and the square of the sum.
-Answer: 25164150
 """
 
 # I wanted to apply Carl Friedrich Gauss's sum formula,

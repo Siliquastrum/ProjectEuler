@@ -1,7 +1,7 @@
-__author__ = "Enes Bekdemir"
 __date__ = "07 Nov 2022"
+__answer__ = 5537376230 # this number is very similar to my phone number :)
 
-""" Problem
+__problem__ = """
 Work out the first ten digits of the sum of the following one-hundred 50-digit numbers.
 
 37107287533902102798797998220837590246510135740250
@@ -9,7 +9,6 @@ Work out the first ten digits of the sum of the following one-hundred 50-digit n
 ..................................................
 I didn't include them all here because there are too many numbers.
 https://projecteuler.net/problem=13 for all numbers.
-Answer: 5537376230
 """
 
 
