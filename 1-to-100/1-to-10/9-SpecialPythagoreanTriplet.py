@@ -22,7 +22,7 @@ def pythagor(N):
 
 
 
-# # 2 # Hackerrank Solution:
+# # 2 # My Solution for HackerRank:
 def pythagorTri(N:int) -> int:
     mx = -1
     if N%2 != 1: 
