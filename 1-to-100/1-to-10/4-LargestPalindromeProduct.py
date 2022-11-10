@@ -6,13 +6,15 @@ A palindromic number reads the same both ways. The largest palindrome made from 
 Find the largest palindrome made from the product of two 3-digit numbers.
 """
 
+# ---------------------------------------------------------
+
 
 # # 2 # Solution of the problem in one line
 print(max([a*b for a in range(999, 99, -1) for b in range(a, 99, -1) if str(a*b) == str(a*b)[::-1]]))
 # Answer = 906609
 
 
-
+# ---------------------------------------------------------
 
 
 # # 6 # Main Solution: (It felt a bit strange to find after 5 different long solutions)
@@ -27,6 +29,7 @@ mx = max(i for i in lst if i < N)
 print(mx)
 
 
+# ---------------------------------------------------------
 
 
 """ # 3 # Pseudo Solution (time limit exceeded)
@@ -39,8 +42,7 @@ def lesspalindrome(N):
 """
 
 
-
-
+# ---------------------------------------------------------
 
 
 """ # 4 # Pseudo Solution (time limit exceeded)
@@ -51,7 +53,7 @@ print(max(set(a*b for a in range(999, 99, -1) for b in range(a, 99, -1) if (ispa
 """
 
 
-
+# ---------------------------------------------------------
 
 
 """ # 5 # Pseudo Solution (time limit exceeded)
@@ -69,7 +71,7 @@ def lesspal(N):
 """
 
 
-
+# ---------------------------------------------------------
 
 
 """ # 1 # This function finds the largest palindrome smaller than the entered number, ie it solves a different problem

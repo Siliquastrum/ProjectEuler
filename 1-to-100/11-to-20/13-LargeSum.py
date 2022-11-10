@@ -11,9 +11,15 @@ I didn't include them all here because there are too many numbers.
 https://projecteuler.net/problem=13 for all numbers.
 """
 
+# ---------------------------------------------------------
+
 
 # # 1 # Very Easy Solution in One Line, if the input is as in hackerrank:
 print(str(sum([int(input()) for _ in range(int(input()))]))[:10])
+
+
+# ---------------------------------------------------------
+
 
 # # 2 # Solution if the input is as in ProjectEuler.net:
 lst = []

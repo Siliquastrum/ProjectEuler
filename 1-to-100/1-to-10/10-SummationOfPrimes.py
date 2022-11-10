@@ -6,27 +6,7 @@ The sum of the primes below 10 is 2 + 3 + 5 + 7 = 17.
 Find the sum of all the primes below two million.
 """
 
-
-
-
-""" # 2 # Pseudo Solution  (only test 7 exceeded the time limit):
-def isPrime(n):
-    for i in range(3, int(pow(n, 0.5))+1,):
-        if n % i == 0: return False
-    return True
-
-primes = [2, 3]
-fun = lambda inp: inp <= n
-t = int(input().strip())
-for a0 in range(t):
-    n = int(input().strip())
-    if max(primes) > n:
-        print(sum(filter(fun, primes)))
-    else:
-        for i in range(primes[-1]+2, n+1, 2):
-            if isPrime(i): primes.append(i)
-        print(sum(primes))
-"""
+# ---------------------------------------------------------
 
 
 # # 3 # My Solution for HackerRank:
@@ -62,7 +42,7 @@ for inp in inputs:
     print(dic[inp])
 
 
-
+# ---------------------------------------------------------
 
 
 """ # 2 # Pseudo Solution  (only test 7 exceeded the time limit):
@@ -88,7 +68,7 @@ for inp in inputs:
 """
 
 
-
+# ---------------------------------------------------------
 
 
 """ # 1 # This solution is too slow:

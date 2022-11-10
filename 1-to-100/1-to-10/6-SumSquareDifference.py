@@ -11,6 +11,9 @@ Hence the difference between the sum of the squares of the first ten natural num
 Find the difference between the sum of the squares of the first one hundred natural numbers and the square of the sum.
 """
 
+# ---------------------------------------------------------
+
+
 # I wanted to apply Carl Friedrich Gauss's sum formula,
 # I searched if there was a formula for sum of squares and;
 """ I found this formula:
@@ -26,7 +29,7 @@ print(int(((n * (n + 1))/2)**2 - (n * (n + 1) * ((2 * n) + 1) / 6)))
 # formulas save lives, thank you Gauss.
 
 
-
+# ---------------------------------------------------------
 
 
 """ # 1 # Very simple but Pseudo Solution (Time limit exceeded)
@@ -36,7 +39,7 @@ print(sqr(sum(range(N + 1))) - sum([sqr(i) for i in range(1, N + 1)]))
 """
 
 
-
+# ---------------------------------------------------------
 
 
 """ # 2 # Pseudo Solution (Time limit exceeded)

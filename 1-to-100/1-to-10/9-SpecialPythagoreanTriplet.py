@@ -9,6 +9,9 @@ There exists exactly one Pythagorean triplet for which a + b + c = 1000.
 Find the product abc.
 """
 
+# ---------------------------------------------------------
+
+
 # # 1 # this solution is just the solution to the problem on the https://projecteuler.net/problem=9:
 # and this solitions is too slow
 def pythagor(N):
@@ -19,7 +22,7 @@ def pythagor(N):
 # print(pythagor(1000))
 
 
-
+# ---------------------------------------------------------
 
 
 # # 2 # My Solution for HackerRank:
