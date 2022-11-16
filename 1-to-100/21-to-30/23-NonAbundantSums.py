@@ -1,5 +1,5 @@
-__date__ = "15 Nov 2022"
-__answer__ = None
+__date__ = "16 Nov 2022"
+__answer__ = 4179871
 
 __problem__ = """
 https://en.wikipedia.org/wiki/Abundant_number
